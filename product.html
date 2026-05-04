@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products - Motor Stores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><h1>MOTOR STORES</h1></div>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search products... (e.g. bike, car, bmw)">
+        </div>
+
+        <nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="product.html">PRODUCT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="testing.html">TESTING</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <div class="container product-layout">
+        <aside class="sidebar">
+            <h3>Filters</h3>
+            <p style="margin-top:10px;"><strong>Category</strong></p>
+            <ul style="list-style:none; padding: 10px 0;">
+                <li><input type="checkbox"> Cars</li>
+                <li><input type="checkbox"> Motorcycles</li>
+                <li><input type="checkbox"> Bicycles</li>
+            </ul>
+            <p><strong>Conditions</strong></p>
+            <label><input type="radio" name="cond"> New</label><br>
+            <label><input type="radio" name="cond"> Used</label>
+        </aside>
+        <section class="product-grid">
+            <div class="card"><div class="img-placeholder">TOYOTA</div><p>$25,000</p></div>
+            <div class="card"><div class="img-placeholder">YAMAHA</div><p>$8,000</p></div>
+            <div class="card"><div class="img-placeholder">TREK</div><p>$1,200</p></div>
+            <div class="card"><div class="img-placeholder">BENZ</div><p>$45,000</p></div>
+            <div class="card"><div class="img-placeholder">FORD</div><p>$30,000</p></div>
+            <div class="card"><div class="img-placeholder">COROLLA</div><p>$15,000</p></div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p><strong>MOTOR STORES</strong> | Kigali, Rwanda</p>
+            <p>Email: <a href="mailto:info@motorstores.rw">info@motorstores.rw</a></p>
+            <p>Phone: <a href="tel:+250788123456">+250 788 123 456</a></p>
+            <p>&copy; 2026 Motor Stores. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
