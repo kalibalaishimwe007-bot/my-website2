@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Motor Stores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><h1>MOTOR STORES</h1></div>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search products... (e.g. bike, car, bmw)">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="testing.html">TESTING</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="hero">
+        <div class="slides-container" id="slides">
+            <div class="slide" style="background-image: url('image1.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content"><h2>Experience Motors in Action</h2></div>
+            </div>
+            <div class="slide" style="background-image: url('image2.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content"><h2>Luxury Sedans 2026</h2></div>
+            </div>
+            <div class="slide" style="background-image: url('images3.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content"><h2>Powerful Dirt Bikes</h2></div>
+            </div>
+            <div class="slide" style="background-image: url('images4.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content"><h2>Premium Bicycles</h2></div>
+            </div>
+            <div class="slide" style="background-image: url('images5.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content"><h2>Electric Mountain Bikes</h2></div>
+            </div>
+            <div class="slide" style="background-image: url('images6.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content"><h2>High Performance Bikes</h2></div>
+            </div>
+            <div class="slide" style="background-image: url('image7.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content"><h2>Custom Motorcycles</h2></div>
+            </div>
+            <div class="slide" style="background-image: url('images8.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content"><h2>Sports & Muscle Cars</h2></div>
+            </div>
+            <div class="slide" style="background-image: url('images12.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content"><h2>Luxury BMW Sedan</h2></div>
+            </div>
+            <div class="slide" style="background-image: url('images13.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content"><h2>Range Rover</h2></div>
+            </div>
+        </div>
+
+        <div class="arrow arrow-left" onclick="prevSlide()">‹</div>
+        <div class="arrow arrow-right" onclick="nextSlide()">›</div>
+    </div>
+
+    <div class="container">
+        <h3>Quick Products</h3>
+        <div class="grid-4" id="quickProducts">
+            <div class="card" data-name="cars"><img src="image1.jpg" alt="Cars"><p>Cars</p></div>
+            <div class="card" data-name="sedans mustang"><img src="images11.jpg" alt="ford mustang"><p>Ford Mustang</p></div>
+            <div class="card" data-name="bicycles bike"><img src="images4.jpg" alt="Bicycles"><p>Bicycles</p></div>
+        </div>
+
+        <h3>Latest Arrivals</h3>
+        <div class="grid-4" id="latestArrivals">
+            <div class="card" data-name="bmw car"><img src="image.jpg" alt="BMW"><p>BMW Vision Concept</p></div>
+            <div class="card" data-name="dirt bike"><img src="images3.jpg" alt="Dirt Bike"><p>Mini Dirt Bike</p></div>
+            <div class="card" data-name="electric bike"><img src="images5.jpg" alt="Electric Bike"><p>Electric Mountain Bike</p></div>
+            <div class="card" data-name="sport bike"><img src="images6.jpg" alt="Sport Bike"><p>Black Sport Bike</p></div>
+        </div>
+
+        <div id="no-results">No products found matching your search.</div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p><strong>MOTOR STORES</strong> | Kigali, Rwanda</p>
+            <p>Email: <a href="mailto:info@motorstores.rw" style="color: #f97316;">info@motorstores.rw</a></p>
+            <p>Phone: <a href="tel:+250788123456" style="color: #f97316;">+250 788 123 456</a></p>
+            <p>&copy; 2026 Motor Stores. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
